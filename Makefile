@@ -1,5 +1,5 @@
 CC := g++
-CFLAGS := -Wall -std=c++11 -I/usr/include/SDL2
+CFLAGS := -Wall -std=c++11 -Iinclude -I/usr/include/SDL2
 LDFLAGS := -lsfml-graphics -lsfml-window -lsfml-system
 
 SRC_DIR := src
